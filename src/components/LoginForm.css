@@ -1,0 +1,95 @@
+.login-container {
+    height: 100vh;
+    /* Chiều cao 100% màn hình */
+    background-image: url("https://dev.ddc.fis.vn/econstruction_web_client/assets/background-login-BeIlyCyv.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Không lặp lại hình nền */
+    background-attachment: fixed;
+    /* Hình nền cố định khi cuộn */
+
+}
+
+.Col1 {
+    width: 100%;
+    max-width: 450px;
+    height: 85%;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: -20px;
+}
+
+h2 {
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.header {
+    text-align: center;
+}
+
+.logo {
+    width: 220px;
+}
+
+.login-form {
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+.input-field {
+    height: 50px;
+    font-size: 18px;
+}
+
+.ant-select-selection-item {
+    font-size: 18px;
+}
+
+/* .button {
+    size: 50px;
+} */
+
+.ant-checkbox-wrapper {
+    font-size: 18px;
+    /* Thiết lập kích thước chữ cho checkbox */
+}
+
+.custom-label {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+
+.ant-btn-primary {
+    background-color: #16315e;
+    font-size: 18px;
+    width: 100%;
+    height: 50px;
+}
+
+.custom-checkbox:checked {
+    background-color: #16315e;
+}
+
+.ant-checkbox-input:checked+.ant-checkbox-inner {
+    background-color: #16315e;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.form-item {
+    margin-bottom: 24px;
+    /* Khoảng cách dưới mỗi Form.Item */
+}
